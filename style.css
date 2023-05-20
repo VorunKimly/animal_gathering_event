@@ -1,0 +1,105 @@
+body{
+    background: url(background.jpg);
+    background-attachment: fixed;
+}
+#heading{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(to top,lightblue, lightpink);
+}
+
+#heading2{
+    background: linear-gradient(to top,lightblue, lightpink);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#image-box{
+    padding-right: 0px;
+    padding-left: 9px;
+    position: relative;
+}
+
+#dogandcat{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#sign-up-box{
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.typing{
+    padding-left: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.typing:focus {
+    outline: none;
+}
+
+#submit{
+    padding: 10px 10px;
+    margin-top: 10px;
+    font-size: 70%;
+    color: white;
+    background: linear-gradient(to top,lightblue, lightpink);
+    border: none;
+}
+
+#float{
+    width: 100px;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+}
+
+p{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+#description{
+    background: linear-gradient(to top,lightblue, lightpink);
+    color: white;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 150%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#thankyou-cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+
+
